@@ -1755,7 +1755,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fbffad;
+  background: #49ff70;
 }
 .feed-link,
 .chat {
@@ -2806,6 +2806,9 @@ ul.breadcrumb li+li:last-child {
   border-bottom: 1px solid #eee;
 }
 .post-body h3 {
+  border-bottom: 1px solid #eee;
+}
+.post-body h4 {
   border-bottom: 1px dotted #eee;
 }
 @media (min-width: 768px) and (max-width: 991px) {
