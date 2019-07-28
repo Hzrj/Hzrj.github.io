@@ -1051,6 +1051,29 @@ pre .javascript .function {
   margin: 60px 20px 0;
   overflow: hidden;
 }
+.back-to-top {
+  visibility: hidden;
+  margin: 8px -10px -20px;
+  background: #eee;
+  font-size: 12px;
+  opacity: 0.6;
+  cursor: pointer;
+  text-align: center;
+}
+.back-to-top:hover {
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .back-to-top {
+    display: none;
+  }
+}
+.back-to-top.back-to-top-on {
+  visibility: visible;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
 .header {
   background: transparent;
 }
@@ -1724,7 +1747,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3470c8;
+  background: #fff;
 }
 .feed-link,
 .chat {
