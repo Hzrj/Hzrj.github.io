@@ -103,13 +103,16 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="世界这么大，不必自卑，不必骄傲。不然我觉得没有必要。">
+<meta property="og:type" content="website">
 <meta property="og:title" content="庄如健">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="庄如健">
+<meta property="og:description" content="世界这么大，不必自卑，不必骄傲。不然我觉得没有必要。">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="庄如健">
+<meta name="twitter:description" content="世界这么大，不必自卑，不必骄傲。不然我觉得没有必要。">
 
 
 
@@ -291,7 +294,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="庄如健">
-      <meta itemprop="description" content>
+      <meta itemprop="description" content="世界这么大，不必自卑，不必骄傲。不然我觉得没有必要。">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -447,7 +450,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="庄如健">
-      <meta itemprop="description" content>
+      <meta itemprop="description" content="世界这么大，不必自卑，不必骄傲。不然我觉得没有必要。">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -627,7 +630,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   
   <p class="site-author-name" itemprop="name">庄如健</p>
-  <div class="site-description motion-element" itemprop="description"></div>
+  <div class="site-description motion-element" itemprop="description">世界这么大，不必自卑，不必骄傲。不然我觉得没有必要。</div>
 </div>
 
 
@@ -666,12 +669,14 @@
       </div>
 
       
-
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=33075054&auto=0&height=32"></iframe>
       
 
     </div>
+	
   </aside>
   <div id="sidebar-dimmer"></div>
+  
 
 
         
@@ -905,15 +910,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + '')
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + '1316836373@qq.com')
         .done(function({ api_server }) {
           var Counter = function(method, url, data) {
             return $.ajax({
               method: method,
               url: 'https://' + api_server + '/1.1' + url,
               headers: {
-                'X-LC-Id': '',
-                'X-LC-Key': '',
+                'X-LC-Id': '1316836373@qq.com',
+                'X-LC-Key': '10030709Izrj!',
                 'Content-Type': 'application/json',
               },
               data: data
