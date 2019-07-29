@@ -99,23 +99,26 @@
   };
 </script>
 
-  <meta name="description" content="需要三个窗体，每个窗体里至少有两个radioButton控件 ，然后需要把 Form2，Form3 中radioButton的Modifiers属性改为 Public 接下来就是代码部分">
-<meta name="keywords" content="c#跨窗体传值">
+  <meta name="description" content="csharp之ATM将会分为三篇写，有登录篇，找回密码篇，功能篇。如果写完第一篇有报错，那就写第三篇，因为那么代码相关联，很遗憾，因此又写了一篇ATM之三层架构篇。很惭愧。">
+<meta name="keywords" content="csharp之模拟ATm机（取钱，存钱，转账，交易明细）登陆篇">
 <meta property="og:type" content="article">
-<meta property="og:title" content="c#_radioButton_跨窗体传递值简单的方法">
-<meta property="og:url" content="http://yoursite.com/2019/07/29/csharp_radioButton_跨窗体传递值简单的方法/index.html">
+<meta property="og:title" content="csharp_ATM之登录篇">
+<meta property="og:url" content="http://yoursite.com/2019/07/29/csharp_ATM之登录篇/index.html">
 <meta property="og:site_name" content="庄如健">
-<meta property="og:description" content="需要三个窗体，每个窗体里至少有两个radioButton控件 ，然后需要把 Form2，Form3 中radioButton的Modifiers属性改为 Public 接下来就是代码部分">
+<meta property="og:description" content="csharp之ATM将会分为三篇写，有登录篇，找回密码篇，功能篇。如果写完第一篇有报错，那就写第三篇，因为那么代码相关联，很遗憾，因此又写了一篇ATM之三层架构篇。很惭愧。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/201811142247316.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20181114224742195.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20181114231936428.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20181114224915172.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70">
-<meta property="og:updated_time" content="2019-07-29T12:23:09.623Z">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181126231859530.PNG">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181126232015904.PNG">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181126232544690.PNG">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181126232904362.PNG">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181126232710955.PNG">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181125135534854.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181126234755960.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2019-07-29T13:53:12.792Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="c#_radioButton_跨窗体传递值简单的方法">
-<meta name="twitter:description" content="需要三个窗体，每个窗体里至少有两个radioButton控件 ，然后需要把 Form2，Form3 中radioButton的Modifiers属性改为 Public 接下来就是代码部分">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/201811142247316.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70">
+<meta name="twitter:title" content="csharp_ATM之登录篇">
+<meta name="twitter:description" content="csharp之ATM将会分为三篇写，有登录篇，找回密码篇，功能篇。如果写完第一篇有报错，那就写第三篇，因为那么代码相关联，很遗憾，因此又写了一篇ATM之三层架构篇。很惭愧。">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20181126231859530.PNG">
 
 
 
@@ -125,7 +128,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/07/29/csharp_radioButton_跨窗体传递值简单的方法/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/29/csharp_ATM之登录篇/">
 
 
 
@@ -136,7 +139,7 @@
 </script>
 
   
-  <title>c#_radioButton_跨窗体传递值简单的方法 | 庄如健</title>
+  <title>csharp_ATM之登录篇 | 庄如健</title>
   
 
 
@@ -306,7 +309,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">5</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">7</span></a>
 
   </li>
 
@@ -379,7 +382,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/29/csharp_radioButton_跨窗体传递值简单的方法/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/29/csharp_ATM之登录篇/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="庄如健">
@@ -396,7 +399,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">c#_radioButton_跨窗体传递值简单的方法
+          <h2 class="post-title" itemprop="name headline">csharp_ATM之登录篇
 
               
             
@@ -422,7 +425,7 @@
                 
               
 
-              <time title="创建时间：2019-07-29 20:13:50 / 修改时间：20:23:09" itemprop="dateCreated datePublished" datetime="2019-07-29T20:13:50+08:00">2019-07-29</time>
+              <time title="创建时间：2019-07-29 21:18:51 / 修改时间：21:53:12" itemprop="dateCreated datePublished" datetime="2019-07-29T21:18:51+08:00">2019-07-29</time>
             </span>
           
 
@@ -451,7 +454,7 @@
 
           
           
-            <span id="/2019/07/29/csharp_radioButton_跨窗体传递值简单的方法/" class="post-meta-item leancloud_visitors" data-flag-title="c#_radioButton_跨窗体传递值简单的方法">
+            <span id="/2019/07/29/csharp_ATM之登录篇/" class="post-meta-item leancloud_visitors" data-flag-title="csharp_ATM之登录篇">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -487,21 +490,28 @@
       
 
       
-        <h2 id="c-radioButton-跨窗体传递值简单的方法"><a href="#c-radioButton-跨窗体传递值简单的方法" class="headerlink" title="c# radioButton 跨窗体传递值简单的方法"></a>c# radioButton 跨窗体传递值简单的方法</h2><ol>
-<li>需要三个窗体，每个窗体里至少有两个radioButton控件 ，然后需要把 Form2，Form3 中radioButton的Modifiers属性改为 Public 接下来就是代码部分</li>
+        <br>c#ATM之登录篇<br>一共三个窗体，一个作为父窗体，另外两个设为子窗体。Form1为父窗体，Form2为子窗体，Form3为子窗体。<p></p>
+<p>Form2作为修改密码的窗体，Form3作为ATM的功能实现。</p>
+<p>先说一下思路：首先需要验证一下自己的账号和密码对不对，验证成功的话就进入下一个界面。先给你看数据库表怎么设计↓↓<br>表名：ox<br>先新建两个表↓<br><img src="https://img-blog.csdnimg.cn/20181126231859530.PNG" alt="在这里插入图片描述"><br>这是表DATA中的数据类型↓<br><img src="https://img-blog.csdnimg.cn/20181126232015904.PNG" alt="在这里插入图片描述"><br> 这是表DATA中的内容↓<br><img src="https://img-blog.csdnimg.cn/20181126232544690.PNG" alt="在这里插入图片描述"></p>
+<p> 这是表USERR中的数据类型↑<img src="https://img-blog.csdnimg.cn/20181126232904362.PNG" alt="在这里插入图片描述"></p>
+<p> 这是表USERR中的内容↓<img src="https://img-blog.csdnimg.cn/20181126232710955.PNG" alt="在这里插入图片描述"></p>
+<ol>
+<li>这是登录界面↓↓</li>
 </ol>
-<p><img src="https://img-blog.csdnimg.cn/201811142247316.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20181114224742195.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20181114231936428.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20181114224915172.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/20181125135534854.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <ol start="2">
-<li>代码部分<br><code>Form1 : Form</code> `</li>
+<li><p>代码如下↓↓</p>
+<p><strong>2.0//先添加一条命名空间</strong></p>
+</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">19|	 	  private void button1_Click(object sender, EventArgs e)</span><br><span class="line">20|	      &#123;</span><br><span class="line">21|	           if (radioButton1.Checked==true)//判断radioButton1有没有被选中</span><br><span class="line">22|             &#123;</span><br><span class="line">23|	                Form2 f2 = new Form2();//实例化窗体</span><br><span class="line">24|	                f2.Owner = this;//获取f2的窗体控件</span><br><span class="line">25|	                f2.radioButton1.Checked = true;//f2的radioButton1被选中的状态为真</span><br><span class="line">26|	                f2.Show();//显示f2窗体</span><br><span class="line">27|	            &#125;</span><br><span class="line">28|	            if (radioButton2.Checked == true)//判断radioButton1有没有被选中</span><br><span class="line">29|	            &#123;</span><br><span class="line">30|	                Form2 f2 = new Form2();//实例化窗体</span><br><span class="line">31|	                f2.Owner = this;//获取f2的窗体控件</span><br><span class="line">32|	                f2.radioButton2.Checked = true;//f2的radioButton2被选中的状态为真</span><br><span class="line">33|	                f2.Show();//显示f2窗体</span><br><span class="line">34|	            &#125;</span><br><span class="line">35|	       &#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">using System.Data.SqlClient;</span><br></pre></td></tr></table></figure>
 
-<p>  <code>Form2 : Form</code> `</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">19|	 	  private void button1_Click(object sender, EventArgs e)</span><br><span class="line">20|	      &#123;</span><br><span class="line">21|	           if (radioButton1.Checked==true)</span><br><span class="line">22|             &#123;</span><br><span class="line">23|	                Form3 f3 = new Form3();</span><br><span class="line">24|	                f3.Owner = this;</span><br><span class="line">25|	                f3.radioButton1.Checked = true;</span><br><span class="line">26|	                f3.Show();</span><br><span class="line">27|	            &#125;</span><br><span class="line">28|	            if (radioButton2.Checked == true)</span><br><span class="line">29|	            &#123;</span><br><span class="line">30|	                Form3 f3 = new Form3();</span><br><span class="line">31|	                f3.Owner = this;</span><br><span class="line">32|	                f3.radioButton2.Checked = true;</span><br><span class="line">33|	                f3.Show();</span><br><span class="line">34|	            &#125;</span><br><span class="line">35|	       &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>2.1//先设这个窗体为父窗体</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public Form1()</span><br><span class="line">       &#123;</span><br><span class="line">           InitializeComponent();</span><br><span class="line">    	IsMdiContainer = true;//先设这个窗体为父窗体</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
 
-<p>  <code>Form3 : Form</code> `<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Form3 只需要把界面做好就行</span><br></pre></td></tr></table></figure></p>
+<p>   <strong>2.2//设置登录按钮的功能</strong><br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">private void button1_Click(object sender, EventArgs e)</span><br><span class="line">      &#123;</span><br><span class="line">         </span><br><span class="line">          string count = &quot;SERVER=.;DATABASE=OX;USER=SA;PWD=1;Integrated Security=True&quot;;//连接数据库字符串</span><br><span class="line">          </span><br><span class="line">          //执行sql语句</span><br><span class="line">          string sql = &quot;SELECT * FROM USERR WHERE ID=&apos;&quot; + textBox1.Text.Trim() + &quot;&apos;&quot;;</span><br><span class="line">          SqlConnection con = new SqlConnection(count);</span><br><span class="line">          SqlCommand cmd = new SqlCommand(sql,con);</span><br><span class="line">          con.Open();</span><br><span class="line">          </span><br><span class="line">          //读取数据库表中的内容</span><br><span class="line">          SqlDataReader dr = cmd.ExecuteReader();</span><br><span class="line">          if (dr.HasRows)</span><br><span class="line">          &#123;</span><br><span class="line">              dr.Read();//有打开阅读就有关闭</span><br><span class="line">              if (textBox2.Text == dr[&quot;PWD&quot;].ToString().Trim())//用dr来验证密码框输入的字符串和数据库中的字符串相不相等</span><br><span class="line">              &#123;</span><br><span class="line">                  MessageBox.Show(&quot;登录成功&quot;);</span><br><span class="line">                  //——————登录成功后需要把这里控件隐藏起来—————</span><br><span class="line">                  textBox1.Visible = false;</span><br><span class="line">        	         textBox2.Visible = false;</span><br><span class="line">       		     label1.Visible = false;</span><br><span class="line">      		     label2.Visible = false;</span><br><span class="line">       	         label3.Visible = false;</span><br><span class="line">         	     button1.Visible = false;</span><br><span class="line">        		     button2.Visible = false;</span><br><span class="line">                  Form3 f3 = new Form3(textBox1.Text);//传递账号给f3</span><br><span class="line">                  f3.MdiParent = this;//设为子窗体</span><br><span class="line">                  f3.Show();</span><br><span class="line">              &#125;</span><br><span class="line">              else</span><br><span class="line">                  MessageBox.Show(&quot;请检查密码&quot;);</span><br><span class="line">          &#125;</span><br><span class="line">          else</span><br><span class="line">          &#123;</span><br><span class="line">              MessageBox.Show(&quot;请检查账号是否存在&quot;);</span><br><span class="line">          &#125;</span><br><span class="line">          con.Close();</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure></p>
+<p>   <strong>2.3//设置找回密码按钮的功能</strong><br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">private void button2_Click(object sender, EventArgs e)</span><br><span class="line">      &#123;</span><br><span class="line">          Form2 f2 = new Form2(this);</span><br><span class="line">          this.button1.Visible = false;</span><br><span class="line">          this.button2.Visible = false;</span><br><span class="line">          this.textBox1.Visible = false;</span><br><span class="line">          this.textBox2.Visible = false;</span><br><span class="line">          this.label1.Visible = false;</span><br><span class="line">          this.label2.Visible = false;</span><br><span class="line">          this.label3.Visible = false;</span><br><span class="line">          f2.MdiParent = this;</span><br><span class="line">          f2.Show();</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      private void textBox2_TextChanged(object sender, EventArgs e)</span><br><span class="line">      &#123;</span><br><span class="line">          textBox2.PasswordChar = &apos;*&apos;;//设置密码框的掩码符</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure></p>
+<p>   下一篇介绍：ATM之找回密码篇<br><img src="https://img-blog.csdnimg.cn/20181126234755960.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0lfVGVuS2Fp,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
       
     </div>
 
@@ -564,7 +574,7 @@
         
         <div class="post-tags">
           
-            <a href="/tags/c-跨窗体传值/" rel="tag"># c#跨窗体传值</a>
+            <a href="/tags/csharp之模拟ATm机（取钱，存钱，转账，交易明细）登陆篇/" rel="tag"># csharp之模拟ATm机（取钱，存钱，转账，交易明细）登陆篇</a>
           
         </div>
       
@@ -577,8 +587,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/29/我要搭建hexo博客,记录我搭建博客过程，也分享下/" rel="next" title="我要搭建hexo博客,记录我搭建博客过程，也分享下">
-                <i class="fa fa-chevron-left"></i> 我要搭建hexo博客,记录我搭建博客过程，也分享下
+              <a href="/2019/07/29/csharp连接数据库的简单实现/" rel="next" title="csharp连接数据库的简单实现">
+                <i class="fa fa-chevron-left"></i> csharp连接数据库的简单实现
               </a>
             
           </div>
@@ -587,8 +597,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/29/九九乘法表的四种玩法带详细注释-/" rel="prev" title="九九乘法表的四种玩法带详细注释 ">
-                九九乘法表的四种玩法带详细注释  <i class="fa fa-chevron-right"></i>
+              <a href="/2019/07/29/csharp_ATM之找回密码篇/" rel="prev" title="csharp_ATM之找回密码篇">
+                csharp_ATM之找回密码篇 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -636,17 +646,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <div class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -664,7 +665,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -714,7 +715,7 @@
         
           
         
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
@@ -793,26 +794,6 @@
       </div>
 
       
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#c-radioButton-跨窗体传递值简单的方法"><span class="nav-number">1.</span> <span class="nav-text">c# radioButton 跨窗体传递值简单的方法</span></a></li></ol></div>
-            
-
-          </div>
-
-        </div>
-		
-      <!--/noindex-->
-	  
-      
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=33075054&auto=0&height=32"></iframe>		  
       
         <div class="back-to-top motion-element">
@@ -850,7 +831,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">12k</span>
+    <span title="站点总字数">30k</span>
   
 
   
@@ -861,7 +842,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">11 分钟</span>
+    <span title="站点阅读时长">27 分钟</span>
   
 </div>
 <!-- 
