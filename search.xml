@@ -56,7 +56,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[c#_radioButton_跨窗体传递值简单的方法]]></title>
+    <title><![CDATA[csharp_radioButton_跨窗体传递值简单的方法]]></title>
     <url>%2F2019%2F07%2F29%2Fc%23_radioButton_%E8%B7%A8%E7%AA%97%E4%BD%93%E4%BC%A0%E9%80%92%E5%80%BC%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%2F</url>
     <content type="text"><![CDATA[c# radioButton 跨窗体传递值简单的方法 需要三个窗体，每个窗体里至少有两个radioButton控件 ，然后需要把 Form2，Form3 中radioButton的Modifiers属性改为 Public 接下来就是代码部分 代码部分 Form1 : Form 1234567891011121314151617private void button1_Click(object sender, EventArgs e) &#123; if (radioButton1.Checked==true)//判断radioButton1有没有被选中 &#123; Form2 f2 = new Form2();//实例化窗体 f2.Owner = this;//获取f2的窗体控件 f2.radioButton1.Checked = true;//f2的radioButton1被选中的状态为真 f2.Show();//显示f2窗体 &#125; if (radioButton2.Checked == true)//判断radioButton1有没有被选中 &#123; Form2 f2 = new Form2();//实例化窗体 f2.Owner = this;//获取f2的窗体控件 f2.radioButton2.Checked = true;//f2的radioButton2被选中的状态为真 f2.Show();//显示f2窗体 &#125; &#125; Form2 : Form 1234567891011121314151617private void button1_Click(object sender, EventArgs e) &#123; if (radioButton1.Checked==true) &#123; Form3 f3 = new Form3(); f3.Owner = this; f3.radioButton1.Checked = true; f3.Show(); &#125; if (radioButton2.Checked == true) &#123; Form3 f3 = new Form3(); f3.Owner = this; f3.radioButton2.Checked = true; f3.Show(); &#125; &#125; Form3 : Form 1Form3 只需要把界面做好就行]]></content>
       <categories>
