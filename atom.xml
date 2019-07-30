@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-29T16:27:39.484Z</updated>
+  <updated>2019-07-30T12:01:41.626Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>text</title>
+    <link href="http://yoursite.com/2019/07/30/text/"/>
+    <id>http://yoursite.com/2019/07/30/text/</id>
+    <published>2019-07-30T12:01:41.000Z</published>
+    <updated>2019-07-30T12:01:41.626Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>java抽象类里面的成员，和接口内的成员   抽象类与接口系列之四</title>
