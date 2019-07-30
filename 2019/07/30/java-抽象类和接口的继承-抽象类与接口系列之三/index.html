@@ -461,6 +461,24 @@
           
 
           
+            
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="fa fa-comment-o"></i>
+    </span>
+    
+      <span class="post-meta-item-text">评论数：</span>
+    
+  
+    <a href="/2019/07/30/java-抽象类和接口的继承-抽象类与接口系列之三/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2019/07/30/java-抽象类和接口的继承-抽象类与接口系列之三/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+          
 
           <br>
           
@@ -597,6 +615,9 @@
 
           </div>
           
+  
+    
+    <div class="comments" id="comments"></div>
   
 
 
@@ -1070,6 +1091,32 @@ window.addEventListener("message", function(e) {
 
 
 
+
+  
+    
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: true,
+    appId: 'reHwxbn5nzSSbUfwE8yG5D2T-gzGzoHsz',
+    appKey: 'XqpJUAxXvidEFFvvI4cdmlHF',
+    placeholder: '欢迎交流讨论...',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
 
   
 

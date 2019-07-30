@@ -112,8 +112,6 @@
 <meta name="twitter:description" content="世界这么大，不必自卑，不必骄傲。不然我觉得没有必要。">
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="庄如健" type="application/atom+xml">
 
@@ -429,6 +427,9 @@
 
           </div>
           
+  
+    
+    <div class="comments" id="comments"></div>
   
 
 
@@ -908,6 +909,32 @@ window.addEventListener("message", function(e) {
 
 
 
+
+  
+    
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: true,
+    appId: 'reHwxbn5nzSSbUfwE8yG5D2T-gzGzoHsz',
+    appKey: 'XqpJUAxXvidEFFvvI4cdmlHF',
+    placeholder: '欢迎交流讨论...',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
 
   
 
