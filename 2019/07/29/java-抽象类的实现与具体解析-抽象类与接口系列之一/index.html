@@ -99,17 +99,18 @@
   };
 </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="先有一个前提，抽象类一般是用来做什么用的。我的理解是在一些复杂的项目中，都用到一个方法暂且叫“方法1”。要怎样能统一使用这个“方法1”且方法都能很好的解决问题。这是抽象类场景应用。">
+<meta name="keywords" content="java抽象类与接口">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/07/27/hello-world/index.html">
+<meta property="og:title" content="java  抽象类的实现与具体解析 抽象类与接口系列之一">
+<meta property="og:url" content="http://yoursite.com/2019/07/29/java-抽象类的实现与具体解析-抽象类与接口系列之一/index.html">
 <meta property="og:site_name" content="庄如健">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="先有一个前提，抽象类一般是用来做什么用的。我的理解是在一些复杂的项目中，都用到一个方法暂且叫“方法1”。要怎样能统一使用这个“方法1”且方法都能很好的解决问题。这是抽象类场景应用。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-27T06:32:30.778Z">
+<meta property="og:updated_time" content="2019-07-29T15:44:38.111Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="java  抽象类的实现与具体解析 抽象类与接口系列之一">
+<meta name="twitter:description" content="先有一个前提，抽象类一般是用来做什么用的。我的理解是在一些复杂的项目中，都用到一个方法暂且叫“方法1”。要怎样能统一使用这个“方法1”且方法都能很好的解决问题。这是抽象类场景应用。">
 
 
 
@@ -119,7 +120,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/07/27/hello-world/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/29/java-抽象类的实现与具体解析-抽象类与接口系列之一/">
 
 
 
@@ -130,7 +131,7 @@
 </script>
 
   
-  <title>Hello World | 庄如健</title>
+  <title>java  抽象类的实现与具体解析 抽象类与接口系列之一 | 庄如健</title>
   
 
 
@@ -264,7 +265,7 @@
       
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">2</span></a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">10</span></a>
 
   </li>
         
@@ -282,7 +283,7 @@
       
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">0</span></a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">3</span></a>
 
   </li>
         
@@ -300,7 +301,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">4</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">13</span></a>
 
   </li>
 
@@ -373,7 +374,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/27/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/29/java-抽象类的实现与具体解析-抽象类与接口系列之一/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="庄如健">
@@ -390,7 +391,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Hello World
+          <h2 class="post-title" itemprop="name headline">java  抽象类的实现与具体解析 抽象类与接口系列之一
 
               
             
@@ -416,17 +417,36 @@
                 
               
 
-              <time title="创建时间：2019-07-27 14:32:30" itemprop="dateCreated datePublished" datetime="2019-07-27T14:32:30+08:00">2019-07-27</time>
+              <time title="创建时间：2019-07-29 23:38:12 / 修改时间：23:44:38" itemprop="dateCreated datePublished" datetime="2019-07-29T23:38:12+08:00">2019-07-29</time>
             </span>
           
 
           
+            
+
+            
+          
 
           
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a></span>
+
+                
+                
+              
+            </span>
+          
 
           
           
-            <span id="/2019/07/27/hello-world/" class="post-meta-item leancloud_visitors" data-flag-title="Hello World">
+            <span id="/2019/07/29/java-抽象类的实现与具体解析-抽象类与接口系列之一/" class="post-meta-item leancloud_visitors" data-flag-title="java  抽象类的实现与具体解析 抽象类与接口系列之一">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -462,20 +482,11 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        <br> 先有一个前提，抽象类一般是用来做什么用的<p></p>
+<p>我的理解是在一些复杂的项目中，都用到一个方法暂且叫“方法1”</p>
+<p>要怎样能统一使用这个“方法1”且方法都能很好的解决问题。</p>
+<p>这是抽象类场景应用。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line">package java_10;</span><br><span class="line"></span><br><span class="line">public class java_10_1 &#123;</span><br><span class="line"></span><br><span class="line">	public static void main(String[] args) &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		// A1 a=new A1(); 错误，因为抽象类不能实例化，没有价值的</span><br><span class="line">		C1 c = new C1(); // C1 是具体类，是有价值的</span><br><span class="line">		c.meth_Abstract1();</span><br><span class="line">		D1 d1 = new D1();</span><br><span class="line">		d1.meth_Abstract2();</span><br><span class="line">		d1.meth_Abstract3();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">// 具体类是 对一个类的抽象，可以实例化。</span><br><span class="line">// 抽象类是 对多个类的抽象，不能实例化。</span><br><span class="line"></span><br><span class="line">abstract class A1 // abstract 用来修饰一个抽象类</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"> abstract class B1 // 抽象方法：有两个特点 </span><br><span class="line">&#123;				   //1.在定义方法时用abstract 来修饰</span><br><span class="line">				   //2.且抽象方法没有方法体</span><br><span class="line">	public abstract void meth_Abstract1();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">abstract class B2 </span><br><span class="line">&#123;</span><br><span class="line">	// public abstract static void meth_Abstract3(); 报错 static不能与 abstract</span><br><span class="line">	// extends 同时使用</span><br><span class="line">	public abstract void meth_Abstract2();</span><br><span class="line"></span><br><span class="line">	public abstract void meth_Abstract3();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class C1 extends B1 // 抽象类的价值，要求定义出它的派生类，且为具体类</span><br><span class="line">&#123;</span><br><span class="line">	@Override</span><br><span class="line">	public void meth_Abstract1() &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		System.out.println(&quot; C1 extends B1 &quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class D1 extends B2 &#123;</span><br><span class="line">	@Override</span><br><span class="line">	public void meth_Abstract2() &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		System.out.println(&quot;Test1_能不能写多个子类&quot;);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public void meth_Abstract3() &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		System.out.println(&quot;Test2_能不能写多个子类&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -497,7 +508,7 @@
     
       <div>
         <div id="reward-container">
-  <div>所有打赏马云爸爸买单.</div>
+  <div>所有打赏马云爸爸买单，第一个支付宝扫一扫领红包.</div>
   <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
     打赏
   </button>
@@ -533,6 +544,15 @@
 
     <footer class="post-footer">
       
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/java抽象类与接口/" rel="tag"># java抽象类与接口</a>
+          
+        </div>
+      
 
       
       
@@ -542,14 +562,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/07/29/csharpATM之功能篇（存钱，取钱，转账，交易明细）完结篇/" rel="next" title="csharpATM之功能篇（存钱，取钱，转账，交易明细）完结篇">
+                <i class="fa fa-chevron-left"></i> csharpATM之功能篇（存钱，取钱，转账，交易明细）完结篇
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/27/Myblog-Test/" rel="prev" title>
-                 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/07/29/csharp三层架构之ATM附源码及数据库文件/" rel="prev" title="csharp三层架构之ATM附源码及数据库文件">
+                csharp三层架构之ATM附源码及数据库文件 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -597,17 +621,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <div class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -625,12 +640,33 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
     
 
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span>
+        </a>
+      </div>
     
 
     
@@ -648,7 +684,23 @@
         
           
         
-        <span class="site-state-item-count">2</span>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
@@ -727,26 +779,6 @@
       </div>
 
       
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-
-        </div>
-		
-      <!--/noindex-->
-	  
-      
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=33075054&auto=0&height=32"></iframe>		  
       
         <div class="back-to-top motion-element">
@@ -784,7 +816,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">3k</span>
+    <span title="站点总字数">65k</span>
   
 
   
@@ -795,7 +827,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">59 分钟</span>
   
 </div>
 <!-- 

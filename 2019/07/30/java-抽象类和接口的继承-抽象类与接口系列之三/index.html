@@ -99,17 +99,18 @@
   };
 </script>
 
-  <meta name="keywords" content="csharp连接数据库">
+  <meta name="description" content="抽象类只能被单继承，而接口可以被多继承。一个类中可以继承单个抽象类和多个接口 。">
+<meta name="keywords" content="java抽象类与接口">
 <meta property="og:type" content="article">
-<meta property="og:title" content="csharp连接数据库的简单实现">
-<meta property="og:url" content="http://yoursite.com/2019/07/29/csharp连接数据库的简单实现/index.html">
+<meta property="og:title" content="java 抽象类和接口的继承 抽象类与接口系列之三">
+<meta property="og:url" content="http://yoursite.com/2019/07/30/java-抽象类和接口的继承-抽象类与接口系列之三/index.html">
 <meta property="og:site_name" content="庄如健">
+<meta property="og:description" content="抽象类只能被单继承，而接口可以被多继承。一个类中可以继承单个抽象类和多个接口 。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20181122001542929.png">
-<meta property="og:updated_time" content="2019-07-29T13:16:55.792Z">
+<meta property="og:updated_time" content="2019-07-29T16:23:16.831Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="csharp连接数据库的简单实现">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20181122001542929.png">
+<meta name="twitter:title" content="java 抽象类和接口的继承 抽象类与接口系列之三">
+<meta name="twitter:description" content="抽象类只能被单继承，而接口可以被多继承。一个类中可以继承单个抽象类和多个接口 。">
 
 
 
@@ -119,7 +120,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/07/29/csharp连接数据库的简单实现/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/30/java-抽象类和接口的继承-抽象类与接口系列之三/">
 
 
 
@@ -130,7 +131,7 @@
 </script>
 
   
-  <title>csharp连接数据库的简单实现 | 庄如健</title>
+  <title>java 抽象类和接口的继承 抽象类与接口系列之三 | 庄如健</title>
   
 
 
@@ -373,7 +374,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/29/csharp连接数据库的简单实现/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/30/java-抽象类和接口的继承-抽象类与接口系列之三/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="庄如健">
@@ -390,7 +391,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">csharp连接数据库的简单实现
+          <h2 class="post-title" itemprop="name headline">java 抽象类和接口的继承 抽象类与接口系列之三
 
               
             
@@ -416,7 +417,7 @@
                 
               
 
-              <time title="创建时间：2019-07-29 21:14:32 / 修改时间：21:16:55" itemprop="dateCreated datePublished" datetime="2019-07-29T21:14:32+08:00">2019-07-29</time>
+              <time title="创建时间：2019-07-30 00:21:29 / 修改时间：00:23:16" itemprop="dateCreated datePublished" datetime="2019-07-30T00:21:29+08:00">2019-07-30</time>
             </span>
           
 
@@ -435,7 +436,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/c/" itemprop="url" rel="index"><span itemprop="name">c#</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a></span>
 
                 
                 
@@ -445,7 +446,7 @@
 
           
           
-            <span id="/2019/07/29/csharp连接数据库的简单实现/" class="post-meta-item leancloud_visitors" data-flag-title="csharp连接数据库的简单实现">
+            <span id="/2019/07/30/java-抽象类和接口的继承-抽象类与接口系列之三/" class="post-meta-item leancloud_visitors" data-flag-title="java 抽象类和接口的继承 抽象类与接口系列之三">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -481,12 +482,9 @@
       
 
       
-        <p></p>
-<p>控件布局如下</p>
-<p><img src="https://img-blog.csdnimg.cn/20181122001542929.png" alt="在这里插入图片描述"><br>代码如下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">using System.Data.SqlClient;//添加一条using命令</span><br><span class="line"></span><br><span class="line">  //双击textBox2</span><br><span class="line">        private void textBox2_TextChanged(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            textBox2.UseSystemPasswordChar = true;//设置密码符</span><br><span class="line">        &#125;</span><br><span class="line">        private void button1_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            string count = &quot;Server =.;user = sa; pwd = 1;Database =ox;&quot;; //连接数据库字符串</span><br><span class="line">            string sql = &quot;select * from student where sno=&apos;&quot; + textBox1.Text.Trim() + &quot;&apos;&quot;;//查询要登录的账号进行查询</span><br><span class="line">            SqlConnection con = new SqlConnection(count);//创建con 对象</span><br><span class="line">            SqlCommand cmd = new SqlCommand(sql, con);//创建cmd 对象 </span><br><span class="line">            con.Open();//打开数据库</span><br><span class="line">            SqlDataReader dr = cmd.ExecuteReader();//读取数据库信息</span><br><span class="line">            try</span><br><span class="line">            &#123;</span><br><span class="line">                if (dr.HasRows)//读取行</span><br><span class="line">                &#123;</span><br><span class="line">                    dr.Read();//允许阅读</span><br><span class="line">                    if (textBox2.Text == dr[&quot;pwd&quot;].ToString().Trim())//比较输入的密码和数据库里的密码</span><br><span class="line">                        MessageBox.Show(&quot;登录成功&quot;);//true为成功</span><br><span class="line">                    else</span><br><span class="line">                        MessageBox.Show(&quot;登录失败&quot;);//flash为失败</span><br><span class="line">                    dr.Close();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            catch (Exception ex)//捕捉错误，这个模块很好用，不要写成空catch（）</span><br><span class="line">            &#123;</span><br><span class="line">                MessageBox.Show(ex.Message.ToString());</span><br><span class="line">            &#125;</span><br><span class="line">            finally //一定会执行</span><br><span class="line">            &#123;</span><br><span class="line">                con.Close();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-<p>欢迎留言交流，可私信我交流。</p>
+        <br> 抽象类只能被单继承，而接口可以被多继承。<p></p>
+<p>一个类中可以继承单个抽象类和多个接口 。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br></pre></td><td class="code"><pre><span class="line">package java_10;</span><br><span class="line"></span><br><span class="line">public class java_10_3 &#123;</span><br><span class="line"></span><br><span class="line">	public static void main(String[] args) &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		D3 d3 = new D3();</span><br><span class="line">		d3.meth_Abtract_IA3();</span><br><span class="line">		d3.meth_Abtract_IB3();</span><br><span class="line">		E3 e3=new E3();</span><br><span class="line">		e3.meth_Abtract();</span><br><span class="line">		e3.meth_Abtract_IA3();</span><br><span class="line">		F3 f3=new F3();</span><br><span class="line">		f3.meth_Abtract();</span><br><span class="line">		f3.meth_Abtract_IA3();</span><br><span class="line">		f3.meth_Abtract_IB3();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 抽象类中可以有非抽象成员，而接口不能有非抽象的成员</span><br><span class="line">abstract class A3 &#123;</span><br><span class="line">	public abstract void meth_Abtract();</span><br><span class="line"></span><br><span class="line">	public void meth_UnAbtract() &#123;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 先定义两个接口，再下面继承两个接口</span><br><span class="line"></span><br><span class="line">interface IA3&#123;</span><br><span class="line">	public abstract void meth_Abtract_IA3();</span><br><span class="line">	 //public  void Meth_Test()&#123;&#125; //不能有非抽象的成员</span><br><span class="line">&#125;</span><br><span class="line">interface IB3 &#123;</span><br><span class="line">	public abstract void meth_Abtract_IB3();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 抽象类和接口的继承 关键字不同，extends，implements</span><br><span class="line">class C3 extends A3 &#123; // 继承 A3抽象类,只能单继承</span><br><span class="line">	public void meth_Abtract() &#123;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class D3 implements IA3, IB3 &#123; // 继承 IA3，IB3 接口；接口可以多继承</span><br><span class="line">	@Override // 每继承接口都要覆盖，实现方法</span><br><span class="line">	public void meth_Abtract_IA3() &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		System.out.println(&quot;class D3 继承IA3接口&quot;);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	@Override</span><br><span class="line">	public void meth_Abtract_IB3() &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		System.out.println(&quot;class D3 继承IB3接口&quot;+&quot;\n------------------------&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class E3 extends A3 implements IA3 &#123;</span><br><span class="line">	public void meth_Abtract() &#123;</span><br><span class="line">		System.out.println(&quot;class E3 继承A3抽象类&quot;);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public void meth_Abtract_IA3() &#123;</span><br><span class="line">		System.out.println(&quot;class E3 继承IA3接口&quot;+&quot;\n------------------------&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"> class F3 extends A3// F3 //抽象类的继承只支持单继承，而接口允许多继承</span><br><span class="line"></span><br><span class="line">		implements IA3, IB3 &#123;</span><br><span class="line">	public void meth_Abtract() &#123;</span><br><span class="line">		System.out.println(&quot;class F3 继承A3抽象类&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">@Override</span><br><span class="line">	public void meth_UnAbtract() &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">	System.out.println(&quot;重写A3里面的非抽象类方法：public void meth_UnAbtract()&quot;);</span><br><span class="line">		super.meth_UnAbtract();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public void meth_Abtract_IA3() &#123;</span><br><span class="line">		System.out.println(&quot;class F3 继承IA3接口&quot;);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	public void meth_Abtract_IB3() &#123;</span><br><span class="line">		System.out.println(&quot;class F3 继承IB3接口&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -549,7 +547,7 @@
         
         <div class="post-tags">
           
-            <a href="/tags/csharp连接数据库/" rel="tag"># csharp连接数据库</a>
+            <a href="/tags/java抽象类与接口/" rel="tag"># java抽象类与接口</a>
           
         </div>
       
@@ -562,8 +560,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/29/九九乘法表的四种玩法带详细注释-/" rel="next" title="九九乘法表的四种玩法带详细注释 ">
-                <i class="fa fa-chevron-left"></i> 九九乘法表的四种玩法带详细注释 
+              <a href="/2019/07/30/java-interface（接口）的使用-抽象类与接口系列之二/" rel="next" title="java interface（接口）的使用 抽象类与接口系列之二">
+                <i class="fa fa-chevron-left"></i> java interface（接口）的使用 抽象类与接口系列之二
               </a>
             
           </div>
@@ -572,8 +570,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/29/csharp_ATM之登录篇/" rel="prev" title="csharp_ATM之登录篇">
-                csharp_ATM之登录篇 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/07/30/java抽象类里面的成员，和接口内的成员-抽象类与接口系列之四/" rel="prev" title="java抽象类里面的成员，和接口内的成员   抽象类与接口系列之四">
+                java抽象类里面的成员，和接口内的成员   抽象类与接口系列之四 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>

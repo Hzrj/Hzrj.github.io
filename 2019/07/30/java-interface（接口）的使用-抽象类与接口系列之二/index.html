@@ -99,18 +99,18 @@
   };
 </script>
 
-  <meta name="description" content="今天很开心">
-<meta name="keywords" content="文章大家">
+  <meta name="description" content="什么是Java的接口？其实接口的概念较为抽象，可以理解为接口是一系列方法和特征的集合。方法和特征是类的组成部分，如果从编程的角度而言，Java的接口…那么Java在类中定义一个接口有什么意义呢？类所描述的是一个实体，包含试题的状态和动作。一个实体能发出的动作由接口来定义。那么在类中对一个借口来定义，从本质上讲，跟在抽象类中定义一个接口一样，…">
+<meta name="keywords" content="java interface（接口）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="文章显示">
-<meta property="og:url" content="http://yoursite.com/2019/07/28/文章显示/index.html">
+<meta property="og:title" content="java interface（接口）的使用 抽象类与接口系列之二">
+<meta property="og:url" content="http://yoursite.com/2019/07/30/java-interface（接口）的使用-抽象类与接口系列之二/index.html">
 <meta property="og:site_name" content="庄如健">
-<meta property="og:description" content="今天很开心">
+<meta property="og:description" content="什么是Java的接口？其实接口的概念较为抽象，可以理解为接口是一系列方法和特征的集合。方法和特征是类的组成部分，如果从编程的角度而言，Java的接口…那么Java在类中定义一个接口有什么意义呢？类所描述的是一个实体，包含试题的状态和动作。一个实体能发出的动作由接口来定义。那么在类中对一个借口来定义，从本质上讲，跟在抽象类中定义一个接口一样，…">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-28T07:10:43.092Z">
+<meta property="og:updated_time" content="2019-07-29T16:20:36.863Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="文章显示">
-<meta name="twitter:description" content="今天很开心">
+<meta name="twitter:title" content="java interface（接口）的使用 抽象类与接口系列之二">
+<meta name="twitter:description" content="什么是Java的接口？其实接口的概念较为抽象，可以理解为接口是一系列方法和特征的集合。方法和特征是类的组成部分，如果从编程的角度而言，Java的接口…那么Java在类中定义一个接口有什么意义呢？类所描述的是一个实体，包含试题的状态和动作。一个实体能发出的动作由接口来定义。那么在类中对一个借口来定义，从本质上讲，跟在抽象类中定义一个接口一样，…">
 
 
 
@@ -120,7 +120,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/07/28/文章显示/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/30/java-interface（接口）的使用-抽象类与接口系列之二/">
 
 
 
@@ -131,7 +131,7 @@
 </script>
 
   
-  <title>文章显示 | 庄如健</title>
+  <title>java interface（接口）的使用 抽象类与接口系列之二 | 庄如健</title>
   
 
 
@@ -265,7 +265,7 @@
       
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">2</span></a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">10</span></a>
 
   </li>
         
@@ -283,7 +283,7 @@
       
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">0</span></a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">3</span></a>
 
   </li>
         
@@ -301,7 +301,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">4</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">13</span></a>
 
   </li>
 
@@ -374,7 +374,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/28/文章显示/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/30/java-interface（接口）的使用-抽象类与接口系列之二/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="庄如健">
@@ -391,7 +391,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">文章显示
+          <h2 class="post-title" itemprop="name headline">java interface（接口）的使用 抽象类与接口系列之二
 
               
             
@@ -417,7 +417,7 @@
                 
               
 
-              <time title="创建时间：2019-07-28 12:25:40 / 修改时间：15:10:43" itemprop="dateCreated datePublished" datetime="2019-07-28T12:25:40+08:00">2019-07-28</time>
+              <time title="创建时间：2019-07-30 00:11:21 / 修改时间：00:20:36" itemprop="dateCreated datePublished" datetime="2019-07-30T00:11:21+08:00">2019-07-30</time>
             </span>
           
 
@@ -428,10 +428,25 @@
           
 
           
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a></span>
+
+                
+                
+              
+            </span>
+          
 
           
           
-            <span id="/2019/07/28/文章显示/" class="post-meta-item leancloud_visitors" data-flag-title="文章显示">
+            <span id="/2019/07/30/java-interface（接口）的使用-抽象类与接口系列之二/" class="post-meta-item leancloud_visitors" data-flag-title="java interface（接口）的使用 抽象类与接口系列之二">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -467,8 +482,19 @@
       
 
       
-        <p></p>
-<p> 今天是一个又开始的日子</p>
+        <br>什么是Java的接口？<p></p>
+<p>其实接口的概念较为抽象，可以理解为接口是一系列方法和特征的集合。方法和特征是类的组成部分，如果从编程的角度而言，Java的接口可以对应这Java中特定的语法结构。Java接口与Java抽象类是不一样的，抽象类可以实现某些方法，而接口则不能。下面，从接口的概念和功能上进一步详细描述其存在的意义。</p>
+<p>那么Java在类中定义一个接口有什么意义呢？</p>
+<p>类所描述的是一个实体，包含试题的状态和动作。一个实体能发出的动作由接口来定义。那么在类中对一个借口来定义，从本质上讲，跟在抽象类中定义一个接口一样，也体现着它的抽象性，即它是可以变化的。从面向对象的思想来看，要封装好变化的部分。这可能涉及到的涉及模式：模板涉及模式/命令涉及模式，在这个util类里面封装了会改变的Worker，可以理解为，util类里面有自己的算法：一部分是固定的，而另外一部分是可变的，尚学堂陈老师指出这个可变的部分就变成了一个接口，接口则是特殊的抽象类，worker可能在不同的工作环境有不同的工作方式，例如work()、onvaction()等等。</p>
+<p>因此在类中定义一个接口是有其必要性的，它代表着一种编程思想，定义接口的目的是让代码有更强的可扩展性。</p>
+<p>那么为何要定义接口？以及接口有何意义呢？那么关于接口的意义可以从以下几点来进行说明：</p>
+<p>1、定义接口的重要性：在Java编程，abstract class 和interface是支持抽象类定义的两种机制。正是由于这两种机制的存在，才使得Java成为面向对象的编程语言。</p>
+<p>2、定义接口有利于代码的规范：对于一个大型项目而言，架构师往往会对一些主要的接口来进行定义，或者清理一些没有必要的接口。这样做的目的一方面是为了给开发人员一个清晰的指示，告诉他们哪些业务需要实现；同时也能防止由于开发人员随意命名而导致的命名不清晰和代码混乱，影响开发效率。</p>
+<p>3、有利于对代码进行维护：比如你要做一个画板程序，其中里面有一个面板类，主要负责绘画功能，然后你就这样定义了这个类。可是在不久将来，你突然发现现有的类已经不能够满足需要，然后你又要重新设计这个类，更糟糕是你可能要放弃这个类，那么其他地方可能有引用他，这样修改起来很麻烦。如果你一开始定义一个接口，把绘制功能放在接口里，然后定义类时实现这个接口，然后你只要用这个接口去引用实现它的类就行了，以后要换的话只不过是引用另一个类而已，这样就达到维护、拓展的方便性。</p>
+<p>4、保证代码的安全和严密：一个好的程序一定符合高内聚低耦合的特征，那么实现低耦合，定义接口是一个很好的方法，能够让系统的功能较好地实现，而不涉及任何具体的实现细节。这样就比较安全、严密一些，这一思想一般在软件开发中较为常见。</p>
+<p>作者：老刘<a href></a> <a href="https://www.zhihu.com/question/20111251/answer/620628682" target="_blank" rel="noopener">链接</a></p>
+<p>上代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">package java_10;</span><br><span class="line"></span><br><span class="line">public class java_10_2 &#123;</span><br><span class="line"></span><br><span class="line">	public static void main(String[] args) &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		D2 d = new D2();</span><br><span class="line">		d.meth();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">interface IA2 &#123;</span><br><span class="line">	// 接口内部:重在行为规则（抽象方法），接口的价值：应该以遵守或采纳（接口的子类）的范围来决定。</span><br><span class="line">	void meth();// 默认为 public abstract。</span><br><span class="line"></span><br><span class="line">	// 接口有数据，数据是常量。</span><br><span class="line">	double PI = 3.14; // 默认为 public static final final只初始化一次，不能再次初始化即常量的意思</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">class D2 implements IA2 &#123; // implements 执行</span><br><span class="line">	@Override</span><br><span class="line">	public void meth() &#123;</span><br><span class="line">		// TODO 自动生成的方法存根</span><br><span class="line">		System.out.println(&quot;D2.meth() &quot;);</span><br><span class="line">		System.out.println(&quot;啦啦啦啦德玛西亚&quot;);</span><br><span class="line">		System.out.println(&quot;D2.PI =&quot; + D2.PI + &quot;  //这是一个接口里的常量&quot;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -490,7 +516,7 @@
     
       <div>
         <div id="reward-container">
-  <div>所有打赏马云爸爸买单.</div>
+  <div>所有打赏马云爸爸买单，第一个支付宝扫一扫领红包.</div>
   <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
     打赏
   </button>
@@ -531,7 +557,7 @@
         
         <div class="post-tags">
           
-            <a href="/tags/文章大家/" rel="tag"># 文章大家</a>
+            <a href="/tags/java-interface（接口）/" rel="tag"># java interface（接口）</a>
           
         </div>
       
@@ -544,8 +570,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/27/Myblog-Test/" rel="next" title>
-                <i class="fa fa-chevron-left"></i> 
+              <a href="/2019/07/29/csharp三层架构之ATM附源码及数据库文件/" rel="next" title="csharp三层架构之ATM附源码及数据库文件">
+                <i class="fa fa-chevron-left"></i> csharp三层架构之ATM附源码及数据库文件
               </a>
             
           </div>
@@ -554,8 +580,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/29/我要搭建hexo博客,记录我搭建博客过程，也分享下1/" rel="prev" title="我要搭建hexo博客,记录我搭建博客过程，也分享下">
-                我要搭建hexo博客,记录我搭建博客过程，也分享下 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/07/30/java-抽象类和接口的继承-抽象类与接口系列之三/" rel="prev" title="java 抽象类和接口的继承 抽象类与接口系列之三">
+                java 抽象类和接口的继承 抽象类与接口系列之三 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -622,12 +648,33 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
     
 
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span>
+        </a>
+      </div>
     
 
     
@@ -645,7 +692,23 @@
         
           
         
-        <span class="site-state-item-count">2</span>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
@@ -761,7 +824,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">3k</span>
+    <span title="站点总字数">65k</span>
   
 
   
@@ -772,7 +835,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">59 分钟</span>
   
 </div>
 <!-- 
