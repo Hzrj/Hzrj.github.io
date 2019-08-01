@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[使用七牛云图片服务器，不管是自己博客用还是用来干嘛，都是一个很好地选择]]></title>
+    <url>%2F2019%2F%E6%95%99%E7%A8%8B%2F%E4%BD%BF%E7%94%A8%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E7%89%87%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%E4%B8%8D%E7%AE%A1%E6%98%AF%E8%87%AA%E5%B7%B1%E5%8D%9A%E5%AE%A2%E7%94%A8%E8%BF%98%E6%98%AF%E7%94%A8%E6%9D%A5%E5%B9%B2%E5%98%9B%EF%BC%8C%E9%83%BD%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%88%E5%A5%BD%E5%9C%B0%E9%80%89%E6%8B%A9%2F</url>
+    <content type="text"><![CDATA[七牛云传送门 下面就是正题了 复制外链后，就可以使用这个链接了，不用担心本地文件怎么怎么样，方便不少。 七牛云传送门]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>七牛云图片服务器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[学习JS中，不同的数据类型的数据的书写方式]]></title>
     <url>%2F2019%2FJS%2F%E7%AC%94%E8%AE%B0%2F%E5%AD%A6%E4%B9%A0JS%E4%B8%AD%EF%BC%8C%E4%B8%8D%E5%90%8C%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%95%B0%E6%8D%AE%E7%9A%84%E4%B9%A6%E5%86%99%E6%96%B9%E5%BC%8F%2F</url>
     <content type="text"><![CDATA[原始类型(基本类型) 原始类型指不可再细分的类型 1.数字类型number直接书写即可 了解:数字类型可以加上前缀，来表示不同的进制0:表示8进制0x:表示16进制0b: 表示2进制 2.字符串类型string字符串:一长串文本(0个或多个)单引号 ‘双引号 “飘 ` 叫做模板字符串在字符串中，如何表示一个特殊字符，可以使用转义符()代码如下 123456789&lt;script&gt; // 如果用单引号开始那么就用单引号结束，双引号，也是一样的。console.log( `hello \`world\``);console.log(&quot;hello \&quot;world\&quot;&quot;); console.log(&quot;hello \\&quot;);console .log(&quot;hello \nworld&quot;); // \n表示换行符console. log(&quot;\t12\t34\n\ta\tbcd&quot;); // \t表示制表符console. log(``hello `\` //这个表示 `&quot;world&quot;` ); 3.布尔类型boolean布尔类型用于表达真或假两种状态true,表示真false,表示假 4. undefined类型表示未定义，不存在。只有一种数据书写方式: undefined 5. null类型表示空，不存在。只有一种数据书写方式:nul1 区分某些长数字和字符串:如果按照数字的方式阅读，则使用数字类型;否则使用字符串类型 引用类型 引用类型有两种: 对象object (事物， 东西，玩意儿可以认为，对象，是由多个基本类型组合而成。书写对象的格式见下面代码1 12345678910111213141516&lt;script&gt;console.log(typeof 231); //控制台显示 numberconsole.log(&#123; name : &quot;西成&quot; , nickName: &quot;成西&quot;， age :18, gender: true, //true表示男， false表示女 address: &#123; country : &quot;中国&quot;; province : &quot;新疆&quot;，; city: &quot;乌鲁木齐&quot;; detail: &quot;那嘎达二街11号&quot;;&#125;, girlFriend: undefined;&#125;);&lt;/script&gt; 函数(后续章节讲解) 得到数据的类型在数据前加上typeof js的bug (特征) : typeof null,得到的是object]]></content>
