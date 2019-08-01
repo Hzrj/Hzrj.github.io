@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[JS之安装代码编辑器]]></title>
+    <url>%2F2019%2FJS%2F%E7%AC%94%E8%AE%B0%2FJS%E4%B9%8B%E5%AE%89%E8%A3%85%E4%BB%A3%E7%A0%81%E7%BC%96%E8%BE%91%E5%99%A8%2F</url>
+    <content type="text"><![CDATA[安装代码编辑器（VSCode： Visual Studio Code）要是还没下载的话，点击vs code官网windows 64位下载中间这个。 安装好后就是安装语言插件（英文变中文） 我用这个编辑器来学JS，所以装一些比较常用的插件 VSCode Visual Studio Code是刚出没有多久的，感觉拿来练练手。第一次安装的时候，有点吃惊，一下就安装好，不需要弄什么。很给力啊这次微软。 安装常用的插件: 1.语言包: Chinese (Simplified) Language Pack for Visual Studio Code Beautify:美化代码的作用 vscode- icons: 美化图标 Live Server: 自动搭建本地服务器，启动网页 Markdown Preview Enhanced: markdown的增强插件 Markdown All in One:在markdown适用快捷键 Markdown toc 自动生成目录]]></content>
+      <categories>
+        <category>JS</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>JS代码编辑器</tag>
+        <tag>vs code安装</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[游览器大战及JS的起源，node.js由来]]></title>
     <url>%2F2019%2FJS%2F%E6%B8%B8%E8%A7%88%E5%99%A8%E5%A4%A7%E6%88%98%E5%8F%8AJS%E7%9A%84%E8%B5%B7%E6%BA%90%EF%BC%8Cnode-js%E7%94%B1%E6%9D%A5%2F</url>
     <content type="text"><![CDATA[游览器从何而来第一款游览器1994年，网景浏览器（Netscape ）是一个是由 Netscape 通信公司开发的网页浏览器。一开始只能做静态页面，只能写html页面（css1996年发布的）， LiveScript的诞生 1995年，网景公司决定在游览器中加入一门语言，可以作交互效果，提高用户体验。最终决定聘请Brendan Eich独立开发一门新的语言，十天后，新的语言诞生了。 LiveScript的更名成JavaScript LiveScript,后因和Sun公司合作，因市场宣传需要改名JavaScript。后来Sun公司被Oracle收购，JavaScript版权归Oracle所有。 网景公司打算在游览器中加入网络操作系统，这是会影响到微软的利益，引起了微软的注意。（微软找网景谈，没成） Brendan Eich有次出席js开发者大会说道，以后要是设计语言，千万不要命名权交给商业公司，不能出于商业考虑而命名。。。 第一次游览器大战 1995年微软发布IE游览器。 js语言推出后，网景获得了极大的竞争优势。（微软有找网景谈说收购。微软慌了，也没成）微软对js语言进行反编译借鉴js语言推出了JScript，VBScript。 第一次游览器大战是标准之争 1997网景公司将JavaScript1.1版本提交给ECMA（欧洲信息和通信系统标准化协会）并没有引起谁的注意，但是没想到的是恰恰影响到了我们。不过那时候竞争太激烈了，标准基本一年一发布，他们两家公司基本上一周一版本。微软杀手锏 IE3发布，并绑定windows操作系统。网景的份额下滑的很厉害。于是1998年网景公司，被收购 第一次游览器大战微软赢了。JS标准称为ES ECMA收录了JavaScript并提交给ISO，经过修改，成为了第一个js的标准版本，成为ECMAScript，简称“”ES“”。 悄悄话，微软相推出了IE4，IE5，IE6（windows xp）之后微软决定解散游览器团队（自废武功吗？） 第二次游览器大战 MOzilla基金会Brendan Eich带领团队成立MOzilla基金会，并决定将网景游览器开源，长时间内，世界的技术爱好者，对网景游览器进行维护和打补丁。 MOzilla推出了Firefox游览器（火狐）2008年 谷歌推出了Chrome游览器，苹果推出了Safari，ASA推出了Opera Chrome游览器搭载了js执行引擎v8（v8引擎，可以将js代码直接转换为字节码，理论上js代码执行速度接近汇编语言） 于是，js具备了编写大型应用程序的能力，甚至服务器应用 node.js的由来Ryan Dahl 准备写一个服务器端的框架，直接使用v8(开源)引擎完成了该框架，称为 node.js v8引擎将JS的执行推向了一个新的台阶ES的语言标准： 不涉及语言的运行环境，正是因为ES避免了运行环境，就让ES有机会在各种环境中执行。ES称为了通用的编程语言。 ES标准的发展 ES1,1997年ES2,1998年ES3 ,1999年ES4, 并没有发布，所以说没有ES4这个版本ES5,2009年 (习惯上，不再区分JavaScript “js”和ECMAScript “ES”)，，（IE6开始落后标准，但他的团队已经解散了）ES6,2015年 ECMA宣布，从ES6开始，使用年号作为版本号。ES6称为ES2015ES7, 在校大学生暑假学习笔记，知识点来源于哔哩哔哩视频渡一。]]></content>
