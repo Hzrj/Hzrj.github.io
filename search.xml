@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[算术运算符 面试密集区]]></title>
+    <url>%2F2019%2FJS%2F%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6-%E9%9D%A2%E8%AF%95%E5%AF%86%E9%9B%86%E5%8C%BA%2F</url>
+    <content type="text"><![CDATA[算术运算符 面试密集区数学运算符 - *link12. ```+ - 14. ```++ -- 幂运算12345678910111213141516171819202122232425262728293031# 细节&gt;1. js小数运算不精确的&gt;2. 除数为0 （8/2=4） 8是被除数，2是除数- 如果被除数是正数，得到的结果是正无穷。Infinity - 如果被除数是负数得到的结果是负无穷.-Infinity。- 如果被除数是0，得到结果NaN (Not a Number)&gt;typeof函数返回类型时为string&gt;isNaN函数，改函数用于判断是不是NaN，返回boolean值。&gt;isFinite函数，该函数英语判断一个数据是不是有限的，返回boolean值3. 求余 - `%`有些教程也叫求模- 余数的符号，与被除数相同 4. 幂运算```(-4)**2``` 得 16&lt;!-- # 细节... --&gt;# 其他类型使用算术运算1. 除加号之外的算术运算符 **将原始类型转换为数字类型（自动转换）。然后进行运算。** 例如 boolean：true -&gt; 1,false -&gt; 0; ```JS var b=true; b=+b; console.log(b,typeof b); &lt;!-- 输出结果是1 ，Number --&gt; string：如果字符串內部是一个正确大的数字，直接变为数字，如果一个非数字，则得到NaN（能识别Infinitely，不能在字符串内部写表达式，会被当做文本） NaN 虽然是数字，但是他和任何数字做任何的数字运算得结果都是NaN null：null - &gt; 0 undefined: undefined - &gt; NaN 将对象类型先转换为字符串类型，然后再将该字符串转换成数字类型 对象类型 - &gt; “[object object]” 加号运算 符 拼接 1- 运算 ```1+2 转换 先将-3转换为字符串1234567891011121314```js console.log(1 + 2 * 3); // 7 console.log(1+ 3 % 2); // 2 console.log(&quot;&quot;+ 3 % 2);//&quot;1&quot; console.log(+&quot;&quot;+ 3 % 2); // 1 console.log(+&#123;&#125; + &quot;&quot;); //&quot;NaN&quot; console.log(100 % 4 / 0); //NaN console .log(nul1 / null); //NaN var a; console.log(a + &#123;&#125; + 123); //undefined[object object ]123 console.log(1 ++ 2+3);//&quot;123&quot; console.log(&#123;&#125; * null); //NaN console. log(+&quot;&quot;+ 100); //100 +&quot;&quot; 转换为0 作业 温度转换器， 设置一个变量 保存摄氏温度（c），将其转换为华氏温度。F=（ 9/5）c+32 利息计算器 设置变量，分别存放本金，月数，年率，计算利息。]]></content>
+      <categories>
+        <category>JS</category>
+      </categories>
+      <tags>
+        <tag>JS算术运算符</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[运算符的概述]]></title>
     <url>%2F2019%2FJS%2F%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E6%A6%82%E8%BF%B0%2F</url>
     <content type="text"><![CDATA[运算符的概述第2章：变量和数据类型第3章：运算符，解决数据运算的问题，面试题密集 操作符和操作数操作符：运算符，参与运算的符号 操作数：参与运算的数据，也称为”元“ 例如三元运算 操作符不一定只有一个符号 操作符出现在不同的位置，可能具有不同的含义 121-2;-1,3; 目接触的操作符： 1234567892. ```.``` 访问符号，用于访问对象的属性 3. ```[]``` 访问符号，用于访问对象的属性 4. ```()``` 函数调用5. ```&#123;&#125;``` 储存对象## 运算符的分类按操作数数量区分1. 一元运算符：```() . 二元运算符：- / * % 13. 三元运算符： ```? : 功能区分 算术运算符（数学） 比较运算符 逻辑运算符 位运算符 其他 表达式表达式 = 操作符 + 操作数 每一个表达式都有一个运算结果，给结果叫做返回值，返回值得类型叫做返回类型 所有的表达式都可以当做数据使用 =该表达式，返回赋值的结果 .属性访问表达式，返回的是属性的值 []属性访问表达式，返回的是属性的值 ()函数调用表达式，返回的结果取决于函数的运行 如果是一个声明+赋值的表达式，返回结果为undefined； console.log 函数调用的返回结果为undefined chrome游览器控制的环境是REPl环境REPL：Read Eval Print Loop ，读，执行，打印，，循环当直接在控制台书写代码时，除了运行代码之外，还会输出该表达式的返回值]]></content>
