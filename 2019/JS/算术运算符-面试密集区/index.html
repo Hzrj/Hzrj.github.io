@@ -107,7 +107,7 @@
 <meta property="og:site_name" content="Evian Z">
 <meta property="og:description" content="这部分是面试密集区">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-19T09:03:46.535Z">
+<meta property="og:updated_time" content="2019-09-11T05:34:42.603Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="算术运算符 面试密集区">
 <meta name="twitter:description" content="这部分是面试密集区">
@@ -421,13 +421,23 @@
                 
               
 
-              <time title="创建时间：2019-08-19 16:58:54 / 修改时间：17:03:46" itemprop="dateCreated datePublished" datetime="2019-08-19T16:58:54+08:00">2019-08-19</time>
+              <time title="创建时间：2019-08-19 16:58:54" itemprop="dateCreated datePublished" datetime="2019-08-19T16:58:54+08:00">2019-08-19</time>
             </span>
           
 
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-09-11 13:34:42" itemprop="dateModified" datetime="2019-09-11T13:34:42+08:00">2019-09-11</time>
+              </span>
             
           
 
@@ -472,7 +482,7 @@
               
                 <span class="post-meta-item-text">本文字数：</span>
               
-              <span title="本文字数">1.5k</span>
+              <span title="本文字数">1.3k</span>
             </span>
           
 
@@ -504,14 +514,45 @@
 
       
         <h1 id="算术运算符-面试密集区"><a href="#算术运算符-面试密集区" class="headerlink" title="算术运算符  面试密集区"></a>算术运算符  面试密集区</h1><p>数学运算符</p>
-<ol>
-<li><figure class="highlight plain"><figcaption><span>- *</span><a href="/```">link</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2. ```+ -</span><br></pre></td></tr></table></figure>
-</li>
-<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4. ```++  --</span><br></pre></td></tr></table></figure>
-</li>
-<li><figure class="highlight plain"><figcaption><span>幂运算</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"># 细节</span><br><span class="line">&gt;1. js小数运算不精确的</span><br><span class="line">&gt;2. 除数为0  （8/2=4） 8是被除数，2是除数</span><br><span class="line"></span><br><span class="line">- 如果被除数是正数，得到的结果是正无穷。Infinity </span><br><span class="line">- 如果被除数是负数得到的结果是负无穷.-Infinity。</span><br><span class="line">- 如果被除数是0，得到结果NaN (Not a Number)</span><br><span class="line">&gt;typeof函数返回类型时为string</span><br><span class="line">&gt;isNaN函数，改函数用于判断是不是NaN，返回boolean值。</span><br><span class="line">&gt;isFinite函数，该函数英语判断一个数据是不是有限的，返回boolean值</span><br><span class="line">3. 求余</span><br><span class="line">   </span><br><span class="line">- `%`有些教程也叫求模</span><br><span class="line"></span><br><span class="line">- 余数的符号，与被除数相同 </span><br><span class="line"></span><br><span class="line">4. 幂运算</span><br><span class="line">```(-4)**2``` 得 16</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;!-- # 细节... --&gt;</span><br><span class="line"></span><br><span class="line"># 其他类型使用算术运算</span><br><span class="line">1. 除加号之外的算术运算符</span><br><span class="line">   **将原始类型转换为数字类型（自动转换）。然后进行运算。**</span><br><span class="line">   例如 boolean：true -&gt; 1,false -&gt; 0;</span><br><span class="line">   ```JS</span><br><span class="line">    var b=true;</span><br><span class="line">    b=+b;</span><br><span class="line">    console.log(b,typeof b); &lt;!-- 输出结果是1 ，Number --&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">+ - * / </span><br><span class="line">+ - </span><br><span class="line">% </span><br><span class="line">++  --</span><br><span class="line">**   幂运算</span><br></pre></td></tr></table></figure>
 
-<p> string：如果字符串內部是一个正确大的数字，直接变为数字，如果一个非数字，则得到NaN（能识别Infinitely，不能在字符串内部写表达式，会被当做文本）</p>
+<h1 id="细节"><a href="#细节" class="headerlink" title="细节"></a>细节</h1><blockquote>
+<ol>
+<li>js小数运算不精确的</li>
+<li>除数为0  （8/2=4） 8是被除数，2是除数</li>
+</ol>
+</blockquote>
+<ul>
+<li>如果被除数是正数，得到的结果是正无穷。Infinity </li>
+<li>如果被除数是负数得到的结果是负无穷.-Infinity。</li>
+<li>如果被除数是0，得到结果NaN (Not a Number)</li>
+</ul>
+<blockquote>
+<p> typeof函数返回类型时为string<br> isNaN函数，改函数用于判断是不是NaN，返回boolean值。<br> isFinite函数，该函数英语判断一个数据是不是有限的，返回boolean值</p>
+</blockquote>
+<ol start="3">
+<li>求余</li>
+</ol>
+<ul>
+<li><p><code>%</code>有些教程也叫求模</p>
+</li>
+<li><p>余数的符号，与被除数相同 </p>
+</li>
+</ul>
+<ol start="4">
+<li>幂运算<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(-4)**2  得 16</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<!-- # 细节... -->
+
+<h1 id="其他类型使用算术运算"><a href="#其他类型使用算术运算" class="headerlink" title="其他类型使用算术运算"></a>其他类型使用算术运算</h1><ol>
+<li>除加号之外的算术运算符</li>
+</ol>
+<p><strong>将原始类型转换为数字类型（自动转换）。然后进行运算。</strong><br>例如 boolean：true -&gt; 1,false -&gt; 0;</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> b=<span class="literal">true</span>;</span><br><span class="line">b=+b;</span><br><span class="line"><span class="built_in">console</span>.log(b,<span class="keyword">typeof</span> b); &lt;!-- 输出结果是1 ，Number --&gt;</span><br></pre></td></tr></table></figure>
+
+<p>string：如果字符串內部是一个正确大的数字，直接变为数字，如果一个非数字，则得到NaN（能识别Infinitely，不能在字符串内部写表达式，会被当做文本）</p>
 <blockquote>
 <p>NaN 虽然是数字，但是他和任何数字做任何的数字运算得结果都是NaN</p>
 </blockquote>
@@ -519,19 +560,25 @@
 <li>null：null - &gt; 0</li>
 <li>undefined: undefined - &gt; NaN</li>
 </ul>
-</li>
-</ol>
 <p>将对象类型先转换为字符串类型，然后再将该字符串转换成数字类型</p>
 <p>对象类型 - &gt; “[object object]”</p>
 <ol start="2">
 <li>加号运算 符</li>
 </ol>
 <ul>
-<li><p>拼接 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- 运算 ```1+2</span><br></pre></td></tr></table></figure></p>
+<li><p>拼接 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;a&quot;+&quot;b&quot;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>转换 <figure class="highlight plain"><figcaption><span>先将-3转换为字符串</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```js</span><br><span class="line">    console.log(1 + 2 * 3); // 7</span><br><span class="line">    console.log(1+ 3 % 2); // 2</span><br><span class="line">    console.log(&quot;&quot;+ 3 % 2);//&quot;1&quot;</span><br><span class="line">    console.log(+&quot;&quot;+ 3 % 2); // 1</span><br><span class="line">    console.log(+&#123;&#125; + &quot;&quot;); //&quot;NaN&quot;</span><br><span class="line">    console.log(100 % 4 / 0); //NaN</span><br><span class="line">    console .log(nul1 / null); //NaN</span><br><span class="line">    var a;</span><br><span class="line">    console.log(a + &#123;&#125; + 123); //undefined[object object ]123</span><br><span class="line">    console.log(1 ++ 2+3);//&quot;123&quot;</span><br><span class="line">    console.log(&#123;&#125; * null); //NaN</span><br><span class="line">    console. log(+&quot;&quot;+ 100); //100  +&quot;&quot;  转换为0</span><br></pre></td></tr></table></figure></p>
+<li><p>运算 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1+2</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>转换</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-3+&quot;ab&quot;  先将-3转换为字符串</span><br></pre></td></tr></table></figure>
+
 </li>
 </ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> + <span class="number">2</span> * <span class="number">3</span>); <span class="comment">// 7</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span>+ <span class="number">3</span> % <span class="number">2</span>); <span class="comment">// 2</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">""</span>+ <span class="number">3</span> % <span class="number">2</span>);<span class="comment">//"1"</span></span><br><span class="line"><span class="built_in">console</span>.log(+<span class="string">""</span>+ <span class="number">3</span> % <span class="number">2</span>); <span class="comment">// 1</span></span><br><span class="line"><span class="built_in">console</span>.log(+&#123;&#125; + <span class="string">""</span>); <span class="comment">//"NaN"</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">100</span> % <span class="number">4</span> / <span class="number">0</span>); <span class="comment">//NaN</span></span><br><span class="line"><span class="built_in">console</span> .log(nul1 / <span class="literal">null</span>); <span class="comment">//NaN</span></span><br><span class="line"><span class="keyword">var</span> a;</span><br><span class="line"><span class="built_in">console</span>.log(a + &#123;&#125; + <span class="number">123</span>); <span class="comment">//undefined[object object ]123</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">1</span> ++ <span class="number">2</span>+<span class="number">3</span>);<span class="comment">//"123"</span></span><br><span class="line"><span class="built_in">console</span>.log(&#123;&#125; * <span class="literal">null</span>); <span class="comment">//NaN</span></span><br><span class="line"><span class="built_in">console</span>. log(+<span class="string">""</span>+ <span class="number">100</span>); <span class="comment">//100  +""  转换为0</span></span><br></pre></td></tr></table></figure>
+
 <h1 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h1><ol>
 <li>温度转换器，</li>
 </ol>
@@ -877,7 +924,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#算术运算符-面试密集区"><span class="nav-number">1.</span> <span class="nav-text">算术运算符  面试密集区</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#作业"><span class="nav-number">2.</span> <span class="nav-text">作业</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#算术运算符-面试密集区"><span class="nav-number">1.</span> <span class="nav-text">算术运算符  面试密集区</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#细节"><span class="nav-number">2.</span> <span class="nav-text">细节</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他类型使用算术运算"><span class="nav-number">3.</span> <span class="nav-text">其他类型使用算术运算</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#作业"><span class="nav-number">4.</span> <span class="nav-text">作业</span></a></li></ol></div>
             
 
           </div>
@@ -937,7 +984,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">1:27</span>
+    <span title="站点阅读时长">1:26</span>
   
   <a href="http://www.beian.gov.cn">粤ICP备44522202000153号</a> 
 </div>
