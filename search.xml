@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[大学生细解三层架构之csharp]]></title>
+    <url>%2F2019%2Fc%2F%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%2F%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BB%86%E8%A7%A3%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B9%8Bcsharp%2F</url>
+    <content type="text"><![CDATA[autoauto- [1. 大学生细解三层架构之csharp](#1-大学生细解三层架构之csharp)auto - [1.1. 三层分为](#11-三层分为)auto - [1.2. 新建四个项目就如上面所说三个加上一个实体类MODEL](#12-新建四个项目就如上面所说三个加上一个实体类model)auto - [1.3. 它们之间的引用关系是这样的](#13-它们之间的引用关系是这样的)auto - [1.4. 第一步要根据它们的引用关系先添加引用 如下图](#14-第一步要根据它们的引用关系先添加引用--如下图)auto - [1.5. 第二步根据它们的引用关系添加它们的命名空间 如下图](#15-第二步根据它们的引用关系添加它们的命名空间--如下图)auto - [1.6. [引用他人的对三层架构的理解](https://www.cnblogs.com/liuqifeng/p/9150254.html)结合自己的理解。](#16-引用他人的对三层架构的理解httpswwwcnblogscomliuqifengp9150254html结合自己的理解)autoauto 大学生细解三层架构之csharp我之前写过一篇三层架构的篇幅，是csharp三层架构之ATM附源码及数据库文件或许有些不尽完美，望请教。学知无涯。现在这个项目是名为“我要软考”亦用三层架构写之。不完美之处，望告知。 三层分为 BLL &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 是指对各种对象的处理，如输入的合法性，完整性，等，给UI调用DAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;是指对数据库操作的类（可以继承或自己创建类），给BLL调用UI &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;是指用户与系统直接交互的层，一般指 （窗体，控件）等MODEL 实体类 封装信息，便于增加删改不至于写其他代码 新建四个项目就如上面所说三个加上一个实体类MODEL BLLDALUIMODEL并将它们的class改成小写的英文，除UI之外，UI层根据自己需求命名如下图 它们之间的引用关系是这样的 BLL引用UI，和DAL UI引用BLL，MODEL DAL引用MODEL 和using System.Data.SqlClient; 第一步要根据它们的引用关系先添加引用 如下图 第二步根据它们的引用关系添加它们的命名空间 如下图 引用他人的对三层架构的理解结合自己的理解。]]></content>
+      <categories>
+        <category>c#</category>
+        <category>三层架构</category>
+      </categories>
+      <tags>
+        <tag>三层架构</tag>
+        <tag>开源</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[算术运算符 面试密集区]]></title>
     <url>%2F2019%2FJS%2F%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6-%E9%9D%A2%E8%AF%95%E5%AF%86%E9%9B%86%E5%8C%BA%2F</url>
     <content type="text"><![CDATA[算术运算符 面试密集区数学运算符 12345+ - * / + - % ++ --** 幂运算 细节 js小数运算不精确的 除数为0 （8/2=4） 8是被除数，2是除数 如果被除数是正数，得到的结果是正无穷。Infinity 如果被除数是负数得到的结果是负无穷.-Infinity。 如果被除数是0，得到结果NaN (Not a Number) typeof函数返回类型时为string isNaN函数，改函数用于判断是不是NaN，返回boolean值。 isFinite函数，该函数英语判断一个数据是不是有限的，返回boolean值 求余 %有些教程也叫求模 余数的符号，与被除数相同 幂运算1(-4)**2 得 16 其他类型使用算术运算 除加号之外的算术运算符 将原始类型转换为数字类型（自动转换）。然后进行运算。例如 boolean：true -&gt; 1,false -&gt; 0; 123var b=true;b=+b;console.log(b,typeof b); &lt;!-- 输出结果是1 ，Number --&gt; string：如果字符串內部是一个正确大的数字，直接变为数字，如果一个非数字，则得到NaN（能识别Infinitely，不能在字符串内部写表达式，会被当做文本） NaN 虽然是数字，但是他和任何数字做任何的数字运算得结果都是NaN null：null - &gt; 0 undefined: undefined - &gt; NaN 将对象类型先转换为字符串类型，然后再将该字符串转换成数字类型 对象类型 - &gt; “[object object]” 加号运算 符 拼接 1&quot;a&quot;+&quot;b&quot; 运算 11+2 转换 1-3+&quot;ab&quot; 先将-3转换为字符串 123456789101112console.log(1 + 2 * 3); // 7console.log(1+ 3 % 2); // 2console.log(""+ 3 % 2);//"1"console.log(+""+ 3 % 2); // 1console.log(+&#123;&#125; + ""); //"NaN"console.log(100 % 4 / 0); //NaNconsole .log(nul1 / null); //NaNvar a;console.log(a + &#123;&#125; + 123); //undefined[object object ]123console.log(1 ++ 2+3);//"123"console.log(&#123;&#125; * null); //NaNconsole. log(+""+ 100); //100 +"" 转换为0 作业 温度转换器， 设置一个变量 保存摄氏温度（c），将其转换为华氏温度。F=（ 9/5）c+32 利息计算器 设置变量，分别存放本金，月数，年率，计算利息。]]></content>
@@ -180,7 +193,7 @@
         <category>c#</category>
       </categories>
       <tags>
-        <tag>c#九九乘法表</tag>
+        <tag>c#九乘法表</tag>
       </tags>
   </entry>
   <entry>
